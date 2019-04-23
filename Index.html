@@ -1,1 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" herf="style.css">
+    <title>American History</title>
+</head>
+<body id="bg-dark">
+    <div class="container">
+        <h1 class="text-center mb-4"><span>American</span> History</h1>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" id="input" name="input" placeholder="Enter Value Here...">
+            <div class="input-group-append">
+                <select class="btn btn-light" name="unit" id="unit">
+                <!--22.8 rega'im = one second
+                // 22 yards = one chain
+                1 day = 24 hours (sha'ah)
+                1 hour = 1080 parts (1080 p)
+                (halaqim) (each heleq = 3 1/3 sec.)1 part (heleq) = 76 moments (rega)
+                1 rega = 0.04386 of a second-->
+                <optgroup label="Time">
+                    <option>Heleq</option>
+                    <option>Parts</option>
+                    <option>Raga</option>
+                    <option>Seconds</option>
+                    <option>Shaah</option>
+                    <option>Hours</option>
+                    <option>Days</option>
+                </optgroup>
+                <optgroup label="Temperature">
+                    <option>Celsius</option>
+                    <option>Fahrenheit</option>
+                    <option>Ziv</option>
+                    <option>Ethanim</option>
+                </optgroup> 
+                <optgroup label="Weight">
+                    <option>lbs</option>
+                    <option>Mina</option>
+                    <option>Talent</option>
+                </optgroup> 
+                <optgroup label="Distance">
+                    <option>Yards</option>
+                    <option>Chains</option>
+                    <option>Miles</option>
+                </optgroup> 
+                </select>
+            </div>
+        </div>
+        <section id="output">
+        <!--Heleq-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-1">
+            <h4>Heleq:</h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Parts-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-2">
+            <h4>Parts:</h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Raga-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-3">
+            <h4>Raga:</h4>
+            <div></div>
+        </div>
+        <!--Seconds-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-4">
+            <h4>Seconds:</h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Shaah-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-5">
+            <h4>Shaah:</h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Hours-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-6">
+            <h4>Hours:</h4>
+            <div></div>
+        </div>
+        <!--Celsius-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-7">
+            <h4>Celsius:</h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Fahrenheit-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-8">
+            <h4>Fahrenheit:</h4>
+            <div></div>
+        </div>
+        <!--Chains-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-9">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Miles-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header"id="card-10">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Links-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-11">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Poles-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-12">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Rods-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-13">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Half Miles-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-14">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Touchdowns-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-15">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Master Cubits-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-16">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Perches-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-17">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--1st Downs-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-18">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--2nd Downs-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-19">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--3rd Downs-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-20">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--4th Downs-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-21">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Two Chains-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-22">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Field Goals-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-23">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Quarter Miles-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-24">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Hands-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-25">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Palms-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-26">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Half Cubits-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-27">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Half Yards-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-28">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--One Twenty Fourth Cubits-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-29">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Meters-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-30">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Pounds-->
+        <div class="card bg-primary mb-3">
+            <div class="card-header" id="card-31">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Maris-->
+        <div class="card bg-light mb-3">
+            <div class="card-header" id="card-32">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        <!--Logs-->
+        <div class="card bg-danger mb-3">
+            <div class="card-header" id="card-33">
+            <h4></h4>
+            <div></div>
+            </div>
+        </div>
+        </section>
 <script src="Main.js"></script>
+
+
+
+
+
